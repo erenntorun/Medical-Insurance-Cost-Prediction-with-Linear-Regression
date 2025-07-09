@@ -60,12 +60,12 @@ A `LinearRegression` model is trained using scikit-learn:
 
 
 🔮 Prediction Example
-
-input_data = (31, 1, 25.74, 0, 1, 0)  # Example: age, sex, bmi, children, smoker, region
-input_data_reshaped = np.asarray(input_data).reshape(1, -1)
-prediction = regressor.predict(input_data_reshaped)
-print("Predicted insurance cost: $", prediction[0])
-
+ 1. Code
+    ```python
+    input_data = (31, 1, 25.74, 0, 1, 0)  # Example: age, sex, bmi, children, smoker, region
+    input_data_reshaped = np.asarray(input_data).reshape(1, -1)
+    prediction = regressor.predict(input_data_reshaped)
+    print("Predicted insurance cost: $", prediction[0])
 
 
 🚀 How to Run
